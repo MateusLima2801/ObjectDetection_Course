@@ -1,0 +1,13 @@
+train: ../POT_HOLES_DETECTION/data/annotated/train/images
+val: ../POT_HOLES_DETECTION/data/annotated/valid/images
+test: ../POT_HOLES_DETECTION/data/annotated/test/images
+
+nc: 1
+names: ["potholes"]
+
+roboflow:
+  workspace: curso-7airl
+  project: potholes-detection-b6a2x
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/curso-7airl/potholes-detection-b6a2x/dataset/1
